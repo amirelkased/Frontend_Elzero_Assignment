@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task 1</title>
+  </head>
+  <body>
+    <form novalidate target="_blank">
+      <div>
+        <label for="search">Search</label>
+        <br />
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Enter A Search Word"
+          autofocus
+        />
+      </div>
+      <br />
+      <div>
+        <label for="upload">Upload</label>
+        <br />
+        <input
+          type="file"
+          name="uploadedfile"
+          id="upload"
+          multiple
+          accept="image/png"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="url">URL</label>
+        <br />
+        <input type="url" name="url" id="url" required />
+      </div>
+      <br />
+      <div>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" value="1982-10-25">
+      </div>
+      <br />
+      <div>
+        <label for="mm">Month</label>
+        <input type="month" name="month" id="mm" value="1982-10">
+      </div>
+      <br />
+      <div>
+        <button type="reset">Empty</button>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+  </body>
+</html>

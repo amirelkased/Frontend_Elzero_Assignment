@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task 2</title>
+  </head>
+  <body>
+    <form>
+      <div hidden>
+        <label for="token">Token</label>
+        <input type="text" name="token" id="token" value="b92f1fc2fce391ad7af633723afd3055">
+      </div>
+      <div>
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="mail" value="O@O.com" readonly>
+      </div>
+      <br>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" minlength="5" maxlength="20" autofocus required>
+      </div>
+      <br>
+      <div>
+        <div>
+          <input type="checkbox" name="skills" id="ps" value="problem-solving" checked/>
+          <label for="ps">Problem Solving</label>
+        </div>
+        <div>
+          <input type="checkbox" name="skills" id="lt" value="logical-thinking"/>
+          <label for="lt">Logical Thinking</label>
+        </div>
+        <div>
+          <input type="checkbox" name="skills" id="as" value="advanced-search"/>
+          <label for="as">Advanced Search</label>
+        </div>
+        <div>
+          <input type="checkbox" name="skills" id="ps" value="problem-solving"/>
+          <label for="ps">Problem Solving</label>
+        </div>
+      </div>
+      <br>
+      <div>
+        <div>
+          <input type="radio" name="jop" id="fe" value="frontend">
+          <label for="fe">Front End Dev</label>
+        </div>
+        <div>
+          <input type="radio" name="jop" id="be" value="backend" checked>
+          <label for="be">Back End Dev</label>
+        </div>
+        <div>
+          <input type="radio" name="jop" id="pm" value="project-manager">
+          <label for="pm">Project Manager</label>
+        </div>
+      </div>
+      <br>
+      <div>
+        <button type="submit">Send</button>
+        <button type="reset">Empty</button>
+      </div>
+    </form>
+  </body>
+</html>

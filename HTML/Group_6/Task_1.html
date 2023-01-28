@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task 1</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form action="" method="POST">
+      <div>
+        <label for="Username">Username</label>
+        <br>
+        <input type="text" name="username" id="Username" placeholder="username" required/>
+      </div>
+      <hr>
+      <div>
+        <label for="pass">Password</label>
+        <br>
+        <input type="password" name="password" id="pass" placeholder="more secure" minlength="3" maxlength="30"/>
+      </div>
+      <hr>
+      <div>
+        <label for="phone">Phone</label>
+        <br>
+        <input type="tel" name="phone" id="phone" placeholder="country code">
+      </div>
+      <hr>
+      <div>
+        <label for="mail">Email</label>
+        <br>
+        <input type="email" name="email" id="mail" placeholder="Gmail mail" required >
+      </div>
+      <hr>
+      <div>
+        <label for="sub">Subject</label>
+        <br>
+        <input type="text" name="subject" id="sub" placeholder="two word for subject">
+      </div>
+      <div hidden>
+        <label for="hide">Gender</label>
+        <input type="radio" name="gender" id="hide" value="male"/>
+      </div>
+      <hr>
+      <div>
+        <button type="submit">Send Data</button>
+        <button type="reset">Empty Form</button>
+      </div>
+    </form>
+  </body>
+</html>
