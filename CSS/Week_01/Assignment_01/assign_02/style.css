@@ -1,0 +1,23 @@
+body{
+  background-color: cornsilk;
+}
+
+div{
+  width: 400px;
+  height: 400px;
+  background-image: url(/Resources/picture/css-assignment-5-8.png);
+  margin: 15px auto;
+  background-color: darkseagreen;
+}
+
+div.assign-2-shape-1{
+  background-repeat: no-repeat;
+}
+
+div.assign-2-shape-2{
+  background-repeat: repeat-y;
+}
+
+div.assign-2-shape-3{
+  background-repeat: repeat-x;
+}
